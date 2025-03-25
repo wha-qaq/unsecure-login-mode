@@ -1,0 +1,11 @@
+//This configuration enables GitHub Codespaces support:
+{
+    "name": "Unsecure Login Dev Env",
+    "image": "mcr.microsoft.com/devcontainers/node:18",
+    "forwardPorts": [3000],
+    "postCreateCommand": "npm install",
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    }
+  }
+  
